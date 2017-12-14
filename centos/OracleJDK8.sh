@@ -5,6 +5,8 @@ ver="jdk-8u151"
 cd /opt/
 wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "$url8"
 tar xzf ${ver}-linux-x64.tar.gz
+rm -rf tar xzf ${ver}-linux-x64.tar.gz
+
 ver="jdk1.8.0_151"
 cd /opt/$ver
 
