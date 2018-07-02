@@ -1,13 +1,13 @@
 #/bin/bash
 
-url8="http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz"
-ver="jdk-8u151"
+url8="http://download.oracle.com/otn-pub/java/jdk/8u172-b11/a58eab1ec242421181065cdc37240b08/jdk-8u172-linux-x64.tar.gz"
+ver="jdk-8u172"
 cd /opt/
 wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "$url8"
 tar xzf ${ver}-linux-x64.tar.gz
 rm -rf tar xzf ${ver}-linux-x64.tar.gz
 
-ver="jdk1.8.0_151"
+ver="jdk1.8.0_172"
 cd /opt/$ver
 
 alternatives --install /usr/bin/java java /opt/$ver/bin/java 2 
